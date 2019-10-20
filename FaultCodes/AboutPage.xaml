@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FaultCodes.AboutPage"
+             Title="About">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="White">
+            <StackLayout Margin="0,90,0,90">
+                <Grid>
+                    <Button
+                            Text="Developped By Curtis Instruments "
+                            Font="Bold,18"
+                            BackgroundColor="White"
+                            TextColor="Black"
+                            Grid.Row="0"/>
+                    <Button
+                            Text="Version: 0.0.4"
+                            Font="Bold,20"
+                            BackgroundColor="White"
+                            TextColor="Black"
+                            Clicked="ACman"
+                            Grid.Row="1"/>
+                    <Button Text="Build: Public Beta 1"
+                            Font="Bold,20"
+                            BackgroundColor="White"
+                            TextColor="Black"
+                            Grid.Row="2"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

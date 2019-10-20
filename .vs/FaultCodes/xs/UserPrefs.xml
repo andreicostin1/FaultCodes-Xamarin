@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{58797041-4E19-49A9-972B-994EB1264E33}|Default">
+  <MonoDevelop.Ide.ItemProperties.FaultCodes.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.16d40f94" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FaultCodes/MainPage.xaml.cs">
+    <Files>
+      <File FileName="FaultCodes/AboutPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="FaultCodes/MainPage.xaml.cs" Line="782" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FaultCodes" expanded="True">
+            <Node name="FaultCodes" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="AboutPage.xaml" expanded="True" />
+              <Node name="FaultCodeList.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+              <Node name="Manual.xaml" expanded="True" />
+              <Node name="printInfo.xaml" expanded="True" />
+            </Node>
+            <Node name="FaultCodes.Android" expanded="True" />
+            <Node name="FaultCodes.iOS" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FaultCodes.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A176535E-A476-41E5-AB21-44B3C2FD7BA6" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,55 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_start_wwan
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/Andrei/Projects/FaultCodes/FaultCodes.iOS/obj/iPhone/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=mono_pmip

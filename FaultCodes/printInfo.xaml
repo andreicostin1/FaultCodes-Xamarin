@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FaultCodes.printInfo"
+             Title="Fault Code Translator">
+    <ContentPage.ToolbarItems>
+      <ToolbarItem Name="Share" Clicked="share_clickAsync"></ToolbarItem>
+</ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="0, 2">
+                <Grid Margin="0,5,0,0">
+                    <Image Source="logo.jpg" Grid.Column="0" WidthRequest="{OnPlatform iOS=300, Android=200}" >
+                        <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="OnImageNameTapped"
+                            NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers></Image>   
+                </Grid>
+            
+                <StackLayout Margin="30, 10, 30, 0">
+                    
+                    <Label Margin="0, 20, 0, 0"
+                           FontAttributes="Bold"
+                           FontSize="Large"
+                           TextColor="Black"
+                           x:Name="cont"
+                           HorizontalOptions="Center" />
+
+                    <Label Margin="0, 20, 0, 0"
+                           FontAttributes="Bold"
+                           FontSize="Large"
+                           TextColor="Black"
+                           x:Name="fc"
+                           HorizontalOptions="Center" />
+
+                    <Frame BorderColor="#01B194"
+                           HasShadow="false"
+                           Margin="-20, 20, -20, 0">
+
+                        <Label  FontSize="Large"
+                                FontAttributes="Bold"
+                                TextColor="#01B194"
+                                x:Name="fault"/>
+                    </Frame>
+
+                    <Frame BorderColor="#047BBC"
+                           HasShadow="false"
+                           Margin="-20, 20, -20, 0">
+                        <Label FontSize="Large"
+                               FontAttributes="Bold"
+                               TextColor= "#047BBC"
+                               x:Name="cause" />
+                    </Frame>
+
+                    <StackLayout Margin="0,20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+
+                            </Grid.ColumnDefinitions>
+                
+                            <Frame
+                               BackgroundColor="White"
+                               Grid.Column="0"
+                               HasShadow="false"
+                               CornerRadius="40"
+                               BorderColor="#047BBC">
+
+                                <Button Text="Manual"
+                                        TextColor="#047BBC"
+                                        BackgroundColor="White"
+                                        Font="{OnPlatform iOS='Bold,26', Android='Bold,19'}"
+                                        Clicked="manualButton_Clicked" />
+                            </Frame>   
+                            <Frame
+                               BackgroundColor="White"
+                               Grid.Column="1"
+                               HasShadow="false"
+                               CornerRadius="40"
+                               BorderColor="#047BBC">
+
+                                <Button Text="Pin-Out"
+                                        TextColor="#047BBC"
+                                        BackgroundColor="White"
+                                        Font="{OnPlatform iOS='Bold,26', Android='Bold,19'}"
+                                        Clicked="pinOutButton_Clicked" />
+                            </Frame>  
+                        </Grid>
+                    </StackLayout> 
+                </StackLayout>
+            </StackLayout>
+        </ScrollView> 
+    </ContentPage.Content>
+</ContentPage>

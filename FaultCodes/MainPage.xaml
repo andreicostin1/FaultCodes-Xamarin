@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:faultcodes="clr-namespace:FaultCodes"
+             mc:Ignorable="d"
+             x:Class="FaultCodes.MainPage"
+             Title="Fault Code Translator" >
+
+    <ContentPage.ToolbarItems>
+      <ToolbarItem
+          Name="Refresh"
+          Clicked="downloadAll">
+      </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Grid Margin="0,5,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                
+                    <Image
+                        x:Name="Curtis"
+                        Source="logo.jpg"
+                        Grid.Column="0"
+                        WidthRequest="{OnPlatform iOS=300, Android=200}">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Tapped="OnImageNameTapped"
+                                NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Frame
+                        Margin="0, 20, 15, 10"
+                        Grid.Column="1"
+                        CornerRadius="20"
+                        HasShadow="false"
+                        BorderColor="#047BBC">
+
+                            <Button Margin="-16,0"
+                                    Font="Bold,23"
+                                    Text="Video Tutorial"
+                                    BackgroundColor="White"
+                                    TextColor="#047BBC"
+                                    Clicked="TutorialButton_Clicked"/>
+                    </Frame>
+                   
+                </Grid>
+
+                <StackLayout Margin="0,20,0,10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                
+                        <Frame
+                            Margin="5,0,0,0"
+                            Grid.Column="0"
+                            BackgroundColor="White"
+                            HasShadow="false"
+                            CornerRadius="40"
+                            BorderColor="#047BBC">
+
+                            <Button Text="Flashlight"
+                                    TextColor="#047BBC"
+                                    BackgroundColor="White"
+                                    Font="{OnPlatform iOS='Bold,20', Android='Bold,18'}"
+                                    Clicked="lightOn" />
+                        </Frame>
+
+                        <Frame
+                            Margin="0,0,5,0"
+                            Grid.Column="1"
+                            BackgroundColor="White"
+                            HasShadow="false"
+                            CornerRadius="40"
+                            BorderColor="#047BBC">
+
+                            <Button
+                                Margin="-10,0,-10,0"
+                                Text="Scan Barcode"
+                                TextColor="#047BBC"
+                                BackgroundColor="White"
+                                Font="{OnPlatform iOS='Bold,20', Android='Bold,14'}"
+                                Clicked="barcodeScanner" />
+                        </Frame>
+                    </Grid>
+
+                </StackLayout> 
+
+                <StackLayout Margin="30, 10, 30, 0">
+
+                    <Label
+                        Margin="-20, 20, -20, 10"
+                        Text="Click and Select Motor Controller"
+                        Font="{OnPlatform iOS='Bold,23', Android='Bold,22'}"
+                        HorizontalOptions="Center"
+                        TextColor="#01B194" />
+                    <faultcodes:CenterPicker
+                        Margin="60,0"
+                        x:Name="mcPicker"
+                        TextColor="#01B194"
+                        FontSize="Large" />
+
+                    <Label
+                        Margin="0, 20, 0, 10"
+                        Text="Enter Fault Code"
+                        Font="Bold,23"
+                        TextColor="#047BBC"
+                        HorizontalOptions="Center"/>
+
+                    <Entry
+                        Margin="60,0"
+                        x:Name="fcEntry"
+                        Keyboard="Numeric"
+                        FontSize="Large"
+                        TextColor="#047BBC"
+                        Placeholder="Enter Here"
+                        HorizontalTextAlignment="Center" />
+         
+                    <Frame
+                        Margin="{OnPlatform iOS='90,20,90,0', Android='77,20,77,0'}"
+                        BackgroundColor="White"
+                        HasShadow="false"
+                        CornerRadius="40"
+                        BorderColor="#047BBC">
+
+                            <Button
+                                Text="Submit"
+                                TextColor="#047BBC"
+                                BackgroundColor="White"
+                                Font="{OnPlatform iOS='Bold,26', Android='Bold,18'}"
+                                Clicked="Button_Clicked" />
+                    </Frame>
+
+
+                    <StackLayout Margin="0,5,0,20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                
+                            <Frame
+                                Grid.Column="0"
+                                BackgroundColor="White"
+                                HasShadow="false"
+                                CornerRadius="40"
+                                BorderColor="#047BBC">
+
+                                <Button Text="Manual"
+                                        TextColor="#047BBC"
+                                        BackgroundColor="White"
+                                        Font="{OnPlatform iOS='Bold,26', Android='Bold,18'}"
+                                        Clicked="manualButton_Clicked" />
+                            </Frame>
+
+                            <Frame
+                                Grid.Column="1"
+                                BackgroundColor="White"
+                                HasShadow="false"
+                                CornerRadius="40"
+                                BorderColor="#047BBC">
+
+                                <Button
+                                    Text="Pin-Out"
+                                    TextColor="#047BBC"
+                                    BackgroundColor="White"
+                                    Font="{OnPlatform iOS='Bold,26', Android='Bold,18'}"
+                                    Clicked="pinOutButton_Clicked" />
+                            </Frame>
+                        </Grid>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="Center" Margin="0,0,0,20">
+                        <Button Text="About"
+                                Clicked="aboutClick" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
